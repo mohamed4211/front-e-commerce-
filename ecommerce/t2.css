@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: rgb(98, 86, 126);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    position: relative;
+    height: 60px;
+}
+.h{
+    list-style: none;
+    display: flex;
+}
+.h a{
+    padding: 0 8px;
+    text-decoration: none;
+    color: #000;
+}
+.h a:hover{
+    transition: 0.7s ease;
+    color: rgb(203, 201, 199);
+    cursor: pointer;
+    transform: scale(1.15);
+}
+.hd{
+    display: flex;
+}
+.hb{
+padding: 6px;
+margin: 0 5px;
+background: rgb(98, 86, 115);
+border-radius: 5px;
+}
+.hb:hover{
+    background: #000;
+    color: antiquewhite;
+    transition: ease 0.7s;
+    cursor: pointer;
+    transform: scale(1.15);
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%,-50%); */
+
+    background-color:  aliceblue;  
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 8px 1px black;
+    opacity: 100%;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-content{
+padding: 20px;
+    background: aliceblue;
+margin: 0px;
+display: flex;
+justify-content: space-between;
+width: 65%;
+}
+.login h2{
+    text-align: center;
+        background: aliceblue;
+}
+.login-content input{
+    box-shadow: 0 2px 0px 0px rgb(98, 86, 126);
+    background-color:rgb(98, 86, 126) ;
+    color:black;
+    border: none;
+}
+::placeholder{
+    color: black;
+}
+.login-content label{
+    font-weight: bold;
+    font-size: 20xp;
+    text-transform: capitalize;
+}
+.submit{
+    width: 25%;
+    justify-content: center;
+    background-color: rgb(98, 86, 126);
+    box-shadow: 0 0 10px 2pxrgb(98, 86, 126);
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    border-radius: 10px;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    background: #000;
+    color: bisque;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.left-box,.right-box,.midel-box{
+    width: 30%;
+}
+.left-content{
+    margin-left: 45%;
+}
+.midel-content{
+    margin-left: 30%;
+}
+.right-content{
+    margin-left: 45%;
+}
+.left-content  a{
+    text-align: left;
+    padding-right: 30%;
+    display:block;
+    margin: 10px 0;
+    text-decoration: none;
+    transition: all 0.7s ease;
+    color:white;
+}
+.left-content  a:hover{
+    color: #0088a9;
+    padding-left:20px;
+    transition:  0.s ease-out 0s;
+}
+
+.fa{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transition: all 0.3 ease;
+    padding-top: 12px;
+    padding-left:13px
+}
+.midel-content a{
+    text-decoration: none;
+    margin-top: 25px;
+    color:white;
+}
+
+
+.midel-box p {
+    padding: 20px 100px;
+    color: burlywood;
+}
+.midel-content a:hover{
+    color: #24262d;
+    background-color: #ffffff;
+    transition:  0.3s ease-out 0s;
+}
+h2{
+    margin-left: 200px;
+}
+#txt{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    color: rgb(98, 86, 126);
+    font-weight: bold;
+    z-index: 2;
+    font-size: 24px;
+}

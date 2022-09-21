@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: rgb(98, 86, 126);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    position: relative;
+    height: 60px;
+}
+.h{
+    list-style: none;
+    display: flex;
+}
+.h a{
+    padding: 0 8px;
+    text-decoration: none;
+    color: #000;
+}
+.h a:hover{
+    transition: 0.7s ease;
+    color: rgb(203, 201, 199);
+    cursor: pointer;
+    transform: scale(1.15);
+}
+.hd{
+    display: flex;
+}
+.hb{
+padding: 6px;
+margin: 0 5px;
+background: rgb(98, 86, 115);
+border-radius: 5px;
+}
+.hb:hover{
+    background: #000;
+    color: antiquewhite;
+    transition: ease 0.7s;
+    cursor: pointer;
+    transform: scale(1.15);
+}
+h2{
+    margin: 25px 0;
+    margin-left: 50%;
+
+    transform: translate(-7.5%);
+}
+.item{
+margin: 12px;
+background: rgb(236, 236, 236);
+padding: 8px;
+width: fit-content;
+height: 300px;
+line-height: 50px;
+}
+.item img{
+    margin: 0 25%;
+}
+.all-item{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item:hover{
+    transform:scale(1.1) ;
+    transition: ease 0.6s;
+    background: rgb(98, 86, 126);
+    color: rgb(203, 201, 199);
+}
+.ha{
+    display: flex;
+    color: black;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.ha:hover{
+    color: rgb(98, 86, 126);
+
+}
+footer{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    background: #000;
+    color: bisque;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.left-box,.right-box,.midel-box{
+    width: 30%;
+}
+.left-content{
+    margin-left: 45%;
+}
+.midel-content{
+    margin-left: 30%;
+}
+.right-content{
+    margin-left: 45%;
+}
+.left-content  a{
+    text-align: left;
+    padding-right: 30%;
+    display:block;
+    margin: 10px 0;
+    text-decoration: none;
+    transition: all 0.7s ease;
+    color:white;
+}
+.left-content  a:hover{
+    color: #0088a9;
+    padding-left:20px;
+    transition:  0.s ease-out 0s;
+}
+
+.fa{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transition: all 0.3 ease;
+    padding-top: 12px;
+    padding-left:13px
+}
+.midel-content a{
+    text-decoration: none;
+    margin-top: 25px;
+    color:white;
+}
+
+
+.midel-box p {
+    padding: 20px 100px;
+    color: burlywood;
+}
+.midel-content a:hover{
+    color: #24262d;
+    background-color: #ffffff;
+    transition:  0.3s ease-out 0s;
+}
+#txt{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    color: rgb(98, 86, 126);
+    font-weight: bold;
+    z-index: 2;
+    font-size: 24px;
+}
